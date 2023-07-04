@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test suite" verbose="15" parallel="methods" thread-count="2">
+<listeners>
+<listener class-name="tesNG.ListenersEx"></listener>
+</listeners>
+<test name="Test One">
+ <parameter name="Name" value="Dinesh kumar"></parameter>
+<!-- <parameter name="Name1" value="Hari"></parameter> -->
+<!-- <groups>
+<run>
+
+<include name="lenovo"></include>
+<exclude name="lenovo"></exclude>
+</run>
+</groups> -->
+<classes>
+
+<!-- Ex for XML <class name="testNG.DependanciManagement"/>
+<class name="testNG.Groupings"/>
+<class name="testNG.TestNG"></class> -->
+<!-- <class name="testNG.Groupings1"></class> -->
+<!-- <class name="testNG.ParallelTesting"></class> -->
+<class name="testNG.Parameterization"></class>
+</classes>
+</test>
+</suite>
